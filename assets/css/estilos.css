@@ -467,6 +467,329 @@ a.btn:focus {
   background-color: #52d0c2;
   color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #33BCAD;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 17px;
+}
+h1 {
+  font-size: 34px;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 23.8px;
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 22.1px;
+  font-size: 1.3rem;
+}
+h4 {
+  font-size: 20.4px;
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 18.7px;
+  font-size: 1.1rem;
+}
+a,
+a:visited {
+  color: #33BCAD;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #33BCAD;
+}
+p {
+  margin-bottom: 10.2px;
+}
+/*
+
+redes
+----------
+- share
+- mail - mail2 - mail3 - mail4
+- google - google2 - google-drive
+- hangouts
+- facebook facebook2
+- instagram - instagram 1
+- whatsapp
+- spotyify
+- telegram
+- twitter
+- vine
+- youtube - youtube2
+- twitch
+- vimeo vimeo2
+- flickr
+- github
+- blogger
+- skype
+- tumblr - tumblr2
+- linkedin - linkedin2
+- pinterest - pinterest2
+- git
+
+mapas
+---------
+- map-pin
+- location
+
+otros
+----------
+- trello
+- android
+- dropbox
+- arrow-down-circle
+- arrow-down-circle
+- arrow-right-circle
+- arrow-up-circle
+- at-sign
+- bubble
+- bubbles
+- bubble2
+- bubbles3
+- bubbles4
+- user
+- hammer
+- spoon-knife
+- leaf
+- fire
+- earth
+- smile
+- tongue
+- sad
+- grin
+- windows8
+- file-pdf
+- send
+- thumbs-down
+- thumbs-up
+- yin-yang
+
+*/
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?2gdupd');
+  src: url('../fonts/icomoon.eot?2gdupd#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?2gdupd') format('truetype'), url('../fonts/icomoon.woff?2gdupd') format('woff'), url('../fonts/icomoon.svg?2gdupd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', "Roboto", sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: normal;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-down-circle:before {
+  content: "\e900";
+}
+.icon-arrow-left-circle:before {
+  content: "\e901";
+}
+.icon-arrow-right-circle:before {
+  content: "\e902";
+}
+.icon-arrow-up-circle:before {
+  content: "\e903";
+}
+.icon-at-sign:before {
+  content: "\e904";
+}
+.icon-instagram1:before {
+  content: "\e905";
+}
+.icon-map-pin:before {
+  content: "\e906";
+}
+.icon-share:before {
+  content: "\e907";
+}
+.icon-mail:before {
+  content: "\e945";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-bubbles4:before {
+  content: "\e970";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-hammer:before {
+  content: "\e996";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-leaf:before {
+  content: "\e9a4";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-smile:before {
+  content: "\e9e1";
+}
+.icon-tongue:before {
+  content: "\e9e3";
+}
+.icon-sad:before {
+  content: "\e9e5";
+}
+.icon-grin:before {
+  content: "\e9e9";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-google:before {
+  content: "\ea88";
+}
+.icon-google2:before {
+  content: "\ea8a";
+}
+.icon-hangouts:before {
+  content: "\ea8e";
+}
+.icon-google-drive:before {
+  content: "\ea8f";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vine:before {
+  content: "\ea97";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-vimeo2:before {
+  content: "\eaa1";
+}
+.icon-flickr:before {
+  content: "\eaa4";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-trello:before {
+  content: "\eab3";
+}
+.icon-blogger:before {
+  content: "\eab7";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-windows8:before {
+  content: "\eac2";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}
+.icon-file-pdf:before {
+  content: "\eadf";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+.icon-location:before {
+  content: "\e908";
+}
+.icon-send:before {
+  content: "\e909";
+}
+.icon-thumbs-down:before {
+  content: "\e90a";
+}
+.icon-thumbs-up:before {
+  content: "\e90b";
+}
+.icon-yin-yang:before {
+  content: "\e90c";
+}
 html {
   height: 100%;
   margin-bottom: 1px;
@@ -565,7 +888,7 @@ img {
   width: 45px;
   height: 45px;
   font-size: 0;
-  background-color: #98C12E;
+  background-color: #33BCAD;
   cursor: pointer;
   position: fixed;
   bottom: 155px;
@@ -1594,7 +1917,6 @@ main .woocommerce button.button:hover {
 }
 main section.categorias {
   position: relative;
-  padding-bottom: 50px;
   -webkit-transform: translateY(-75px);
           transform: translateY(-75px);
 }
@@ -1627,42 +1949,33 @@ main section.categorias .ancho .grid-categorias {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 main section.categorias .ancho .grid-categorias .category {
-  padding: 2px;
   position: relative;
   width: 33%;
 }
 main section.categorias .ancho .grid-categorias .category .content {
-  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  border-radius: 100px;
-  -webkit-box-shadow: 0px 4px 40px 0px #3E353940;
-          box-shadow: 0px 4px 40px 0px #3E353940;
-  width: 410px;
-  padding: 40px;
-  margin-bottom: 25px;
+  -ms-flex-align: center;
+  align-items: center;
 }
 main section.categorias .ancho .grid-categorias .category .content img {
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
 main section.categorias .ancho .grid-categorias .category p {
   z-index: 10;
-  color: #000;
+  color: white;
   font-weight: 600;
   font-size: 25.5px;
   font-size: 1.5rem;
@@ -1672,7 +1985,9 @@ main section.categorias .ancho .grid-categorias .category p {
   display: block;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  padding: 0 25px;
+  top: 10px;
+  left: 100px;
+  position: absolute;
 }
 main section.categorias .ancho .grid-categorias .category:hover .thumbnail,
 main section.categorias .ancho .grid-categorias .category:hover p {
@@ -1701,11 +2016,64 @@ main section.categorias .ancho .grid-categorias .category:nth-child(4) {
 main section.categorias .ancho .grid-categorias .category:nth-child(5) {
   grid-area: category5;
 }
-main .carrusel-descuentos {
-  position: relative;
+main .info-tekpro .titulo-tekpro {
+  text-align: center;
 }
-main .carrusel-descuentos li {
-  padding: 0 12px;
+main .info-tekpro h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+main .info-tekpro p {
+  font-weight: 300;
+  color: #333333;
+}
+main .info-tekpro .column-img figure img {
+  width: 80%;
+  -webkit-transform: translate(10%, 10%);
+          transform: translate(10%, 10%);
+}
+main .info-tekpro .column-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .info-tekpro .btn-conocemas a::before {
+  content: '';
+  width: 15px !important;
+  height: 15px;
+  background-image: url(../images/layer.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 110px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+main .mercados-list {
+  margin-top: 100px;
+}
+main .mercados-list .ancho .mercado-titulo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+main .mercados-list .ancho .mercado-titulo h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+main .mercados-list .ancho .mercado-titulo p {
+  color: #33BCAD;
 }
 main .splide--slide {
   position: relative;
@@ -1757,7 +2125,7 @@ main .pc__productos_relacionados .productos-destacados {
 }
 main .productos_destacados .ancho .info,
 main .pc__productos_relacionados .ancho .info {
-  margin: 0 auto;
+  margin: 0 0 50px 0;
   position: relative;
 }
 main .productos_destacados .ancho .info h2,
@@ -5945,7 +6313,7 @@ main.main404 .wp-block-button a:hover {
   transition: all 0.5s;
 }
 .metaslider .flexslider {
-  margin: 0 !important;
+  margin-top: 100px !important;
 }
 section.informacion {
   background: #F7F7F7;
@@ -7677,7 +8045,7 @@ header::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 30px;
 }
 .fijo header {
   z-index: 100 !important;
@@ -7697,7 +8065,7 @@ header::before {
   width: auto;
 }
 .fijo header nav.el-menu .menu-ppl ul li a {
-  color: white !important;
+  color: black !important;
 }
 .fijo header .options_shop .account:before,
 .fijo header .options_shop .cart .btn-cart {
@@ -7758,7 +8126,7 @@ header::before {
 }
 .container-menu .logo img {
   width: 100%;
-  height: 80px;
+  height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
   width: auto;
@@ -7817,6 +8185,7 @@ header::before {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-top: 10px;
 }
 .container-menu .container-menu-buscador .buscador form label {
   display: none;
@@ -7825,10 +8194,9 @@ header::before {
   padding-left: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border: none;
+  border: 1px solid #33BCAD;
   outline: none;
+  border-radius: 10px;
 }
 .container-menu .container-menu-buscador .buscador form div input[type="search"]::-webkit-input-placeholder {
   font-style: italic;
@@ -7850,7 +8218,7 @@ header::before {
   display: inline-block;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #A5DBD6;
+  background-color: #33BCAD !important;
   margin-left: 7px;
   font-size: 0;
   width: 60px;
@@ -7953,23 +8321,14 @@ header::before {
   display: block;
   position: relative;
   padding: 7px 10px;
-  font-size: 18.7px;
-  font-size: 1.1rem;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: black;
   outline: none;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-.container-menu .container-menu-buscador nav.el-menu .menu-ppl ul li:hover > a,
-.container-menu .container-menu-buscador nav.el-menu .menu-ppl ul li > a:focus,
-.container-menu .container-menu-buscador nav.el-menu .menu-ppl ul li.in-hover > a {
-  font-weight: 800;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  text-shadow: 1px 1px black;
 }
 .container-menu .container-menu-buscador nav.el-menu .menu-ppl li.menu-categorias {
   position: relative;
