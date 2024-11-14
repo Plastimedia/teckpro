@@ -20,9 +20,24 @@
                 'afterWidget' => '</div>'
             ],
             [
-                'name' => 'Carrusel',
-                'beforeWidget' => '<li  class="splide__slide">',
-                'afterWidget' => '</li>'
+                'name' => 'Tekpro titulo',
+                'beforeWidget' => '',
+                'afterWidget' => ''
+            ],
+            [
+                'name' => 'Tekpro info',
+                'beforeWidget' => '',
+                'afterWidget' => ''
+            ],
+            [
+                'name' => 'Buscador',
+                'beforeWidget' => '',
+                'afterWidget' => ''
+            ],
+            [
+                'name' => 'Mercado titulo',
+                'beforeWidget' => '',
+                'afterWidget' => ''
             ],
             [
                 'name' => 'Productos destacados',
@@ -30,17 +45,17 @@
                 'afterWidget' => ''
             ],
             [
-                'name' => 'banner',
-                'beforeWidget' => '',
-                'afterWidget' => ''
-            ],
-            [
-                'name' => 'Nuestros productos',
+                'name' => 'Productos Nuevos',
                 'beforeWidget' => '',
                 'afterWidget' => ''
             ],
             [
                 'name' => 'blog',
+                'beforeWidget' => '',
+                'afterWidget' => ''
+            ],
+            [
+                'name' => 'Marcas',
                 'beforeWidget' => '',
                 'afterWidget' => ''
             ],
@@ -61,11 +76,6 @@
             ],
             [
                 'name' => 'Carrito',
-                'beforeWidget' => '',
-                'afterWidget' => ''
-            ],
-            [
-                'name' => 'Buscador',
                 'beforeWidget' => '',
                 'afterWidget' => ''
             ],
