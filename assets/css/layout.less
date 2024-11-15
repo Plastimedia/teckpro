@@ -1366,6 +1366,7 @@ main {
       box-shadow: none;
     }
   }
+  
   .mercados-list{
     margin-top: 100px;
    .ancho .mercado-titulo{
@@ -1640,19 +1641,13 @@ main {
 
     .info {
       h2 {
-        .font-size(2);
+        font-size: 2rem;
         font-weight: 600;
         position: relative;
         padding-bottom: 10px;
-        text-align: center;
-        color: #000;
-        font-family: @fuenteComun;
-        display: inline-block;
-        display: inline-block;
-        padding: 5px 50px;
-        border-radius: 0 50px 50px 0;
-        margin-bottom: 50px;
-        width: 100%;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 25px;
         text-align: center;
 
         strong {
@@ -1700,96 +1695,6 @@ main {
   }
 
   // contactanos
-  // certificados
-  .certificados {
-    padding: 50px 0;
-    position: relative;
-
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 80%;
-      height: 2px;
-      background: #bdbdbd;
-      .transform(translateX(-50%));
-    }
-
-    .info {
-      max-width: 1000px;
-      margin: 0 auto;
-      text-align: center;
-      color: black;
-      padding-bottom: 25px;
-
-      h2 {
-        font-weight: 800;
-        .font-size(1.5);
-        position: relative;
-        display: block;
-        color: black;
-
-        &::before {
-          content: "";
-          display: block;
-          position: absolute;
-          bottom: -20px;
-          left: 50%;
-          .transform(translateX(-50%));
-          width: 150px;
-          height: 15px;
-          // border: 1px solid white;
-          border-radius: 3px;
-          background-image: url("@{imgurl}linea_blue_ligthen.svg");
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-        }
-      }
-    }
-
-    .content {
-      position: relative;
-      display: block;
-      width: 90%;
-      margin: 0 auto;
-
-      .splide__arrow {
-        background: @tercero;
-
-        svg path {
-          fill: white;
-        }
-      }
-
-      .splide__arrow--prev {
-        left: 0;
-        .transform(translate(-100%, -50%));
-      }
-
-      .splide__arrow--next {
-        right: 0;
-        .transform(translate(100%, -50%));
-      }
-
-      .splide__pagination {
-        display: none;
-      }
-
-      li {
-        text-align: center;
-
-        img {
-          width: auto;
-          height: auto;
-        }
-      }
-    }
-  }
-
-  // certificados
   // blog
   .blog {
     padding: 50px 0;
@@ -1803,20 +1708,14 @@ main {
         position: relative;
 
         h2 {
-          .font-size(1.4);
+          font-size: 2rem;
           font-weight: 600;
           position: relative;
           padding-bottom: 10px;
-          text-align: center;
-          color: white;
-          font-family: @fuenteComun;
-          background: @quinto;
-          display: inline-block;
-          display: inline-block;
-          padding: 5px 50px;
-          border-radius: 0 50px 50px 0;
-          text-transform: uppercase;
+          color: black;
+          font-family: "Roboto", sans-serif;
           margin-bottom: 25px;
+          text-align: center;
         }
 
       }

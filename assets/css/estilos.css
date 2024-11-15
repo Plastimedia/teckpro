@@ -2323,18 +2323,13 @@ main .el-blog {
   position: relative;
 }
 main .el-blog .info h2 {
-  font-size: 34px;
   font-size: 2rem;
   font-weight: 600;
   position: relative;
   padding-bottom: 10px;
-  color: #000;
+  color: black;
   font-family: "Roboto", sans-serif;
-  display: inline-block;
-  padding: 5px 50px;
-  border-radius: 0 50px 50px 0;
-  margin-bottom: 50px;
-  width: 100%;
+  margin-bottom: 25px;
   text-align: center;
 }
 main .el-blog .info h2 strong {
@@ -2375,85 +2370,6 @@ main .el-blog li .text h3 a {
   font-size: 1.5rem;
   font-weight: 700;
 }
-main .certificados {
-  padding: 50px 0;
-  position: relative;
-}
-main .certificados::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 80%;
-  height: 2px;
-  background: #bdbdbd;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-main .certificados .info {
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  color: black;
-  padding-bottom: 25px;
-}
-main .certificados .info h2 {
-  font-weight: 800;
-  font-size: 25.5px;
-  font-size: 1.5rem;
-  position: relative;
-  display: block;
-  color: black;
-}
-main .certificados .info h2::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 150px;
-  height: 15px;
-  border-radius: 3px;
-  background-image: url("../images/linea_blue_ligthen.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-main .certificados .content {
-  position: relative;
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-}
-main .certificados .content .splide__arrow {
-  background: #000000;
-}
-main .certificados .content .splide__arrow svg path {
-  fill: white;
-}
-main .certificados .content .splide__arrow--prev {
-  left: 0;
-  -webkit-transform: translate(-100%, -50%);
-  transform: translate(-100%, -50%);
-}
-main .certificados .content .splide__arrow--next {
-  right: 0;
-  -webkit-transform: translate(100%, -50%);
-  transform: translate(100%, -50%);
-}
-main .certificados .content .splide__pagination {
-  display: none;
-}
-main .certificados .content li {
-  text-align: center;
-}
-main .certificados .content li img {
-  width: auto;
-  height: auto;
-}
 main .blog {
   padding: 50px 0;
   position: relative;
@@ -2463,20 +2379,14 @@ main .blog .ancho .info {
   position: relative;
 }
 main .blog .ancho .info h2 {
-  font-size: 23.8px;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
   position: relative;
   padding-bottom: 10px;
-  text-align: center;
-  color: white;
+  color: black;
   font-family: "Roboto", sans-serif;
-  background: #A5DBD6;
-  display: inline-block;
-  padding: 5px 50px;
-  border-radius: 0 50px 50px 0;
-  text-transform: uppercase;
   margin-bottom: 25px;
+  text-align: center;
 }
 main .blog .ancho .don-loop {
   padding-bottom: 50px;
